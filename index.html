@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tomer Aharoni</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="flipbox.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <!-- home front -->
+    <div>
+        <!-- nav-bar -->
+        <ul class="nav fixed-top justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link " href="#">דף הבית</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">גלריה</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+                    aria-expanded="false">שירותים</a>
+                <div class="dropdown-menu bg-trans">
+                    <a class="dropdown-item" href="#rechiva">רכיבה טיפולית</a>
+                    <a class="dropdown-item" href="#elof">אילוף סוסים</a>
+                    <a class="dropdown-item" href="#clini">קליניקה</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">הכל על אילוף</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">צור קשר</a>
+            </li>
+            <!-- <li class="nav-item">
+                          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                        </li> -->
+        </ul>
+
+
+        <!-- video background -->
+        <video autoplay muted loop id="myVideo" class="col-md-12">
+            <source src="pic/bg/Equestrian_02_Videvo.mov" type="video/mp4">
+        </video>
+        <p class="video-text" id="demo" onload="typeWriter()"></p>
+    </div>
+<br>
+    <!-- abut tomer -->
+<div class="row justify-content-md-center text-center ">
+<div >
+    <img src="pic/profile.jpg" alt="profile pic" class="rounded-circle profile-pic">
+</div>
+
+<div class="abut">
+    <h1>תומר אהרוני</h1>
+    <p>
+            יידיש הבאים ב מתן, אחר מה רוסית ופיתוחה, היא ב הבאים ביולוגיה. בה תיאטרון פילוסופיה אנא. רבה את ותשובות
+            הגולשות, שמו על שדרות אספרנטו. זכר על ננקטת בארגז למאמרים, ארץ כלים מחליטה או. בה בדף המלצת
+            העריכהגירסאות, עסקים צרפתית מדע ב, המזנון לאחרונה את ויש. שדרות סטטיסטיקה זאת גם, אינו ממונרכיה אם כדי,
+            ב עמוד אקראי מיזמים סדר. 
+    </p>
+</div>
+</div>
+<br>
+    <!-- category -->
+    <div class="row">
+
+        <!-- <div class="col-4">
+            <div class="flip-box">
+                <div class="flip-box-inner">
+                    <div class="flip-box-front">
+                        <img src="רכיבה טיפולית.jpg" alt="">
+                    </div>
+                    <div class="flip-box-back">
+                        <h2>רכיבה טיפולית</h2>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+
+        <div class="col-sm pic-category">
+           <a href="#rechiva"> <img src="pic/רכיבה טיפולית.jpg" alt="" class="rounded">
+            <p>רכיבה טיפולית</p></a>
+        </div>
+
+        <div class="col-sm pic-category">
+           <a href="#elof"><img src="pic/אילוף.jpg" alt="" class="rounded">
+            <p>אילוף סוסים</p></a>
+        </div>
+
+        <div class="col-sm pic-category">
+           <a href="#clini"> <img src="pic/קליניקה.jpg" alt="" class="rounded">
+            <p>קליניקה</p> </a>
+        </div>
+    </div>
+    <br>
+
+    <!-- פירוט על השירותים הניתנים -->
+
+    <!-- רכיבה טיפולית -->
+    <section class="row align-items-center">
+        <div class="col-5 text-center " id="rechiva">
+            <h1>רכיבה טיפולית</h1>
+
+
+            <p>יידיש הבאים ב מתן, אחר מה רוסית ופיתוחה, היא ב הבאים ביולוגיה. בה תיאטרון פילוסופיה אנא. רבה את ותשובות
+                הגולשות, שמו על שדרות אספרנטו. זכר על ננקטת בארגז למאמרים, ארץ כלים מחליטה או. בה בדף המלצת
+                העריכהגירסאות, עסקים צרפתית מדע ב, המזנון לאחרונה את ויש. שדרות סטטיסטיקה זאת גם, אינו ממונרכיה אם כדי,
+                ב עמוד אקראי מיזמים סדר.
+                ניווט משחקים אנא אם. דת זכר בארגז מוסיקה, היא בה קסאם ביולי. שפות ומהימנה מבוקשים על סדר. מלא ספרות
+                נבחרים הנאמנים את, מדע מה העזרה ספרדית. צעד ציור רומנית אם, בקר קהילה פיסיקה והגולשים את, רבה את לחבר
+                אחרים ותשובות. כדי מיזם לחיבור ב, כתב שאלות מיותר של.
+                ביוני טבלאות אנתרופולוגיה צעד ב, ייִדיש קרימינולוגיה תנך דת. אם והוא פולנית האטמוספירה כדי. מיותר טכניים
+                מדע דת. מפתח האטמוספירה ארץ או. או היא ביוני המלחמה, ובמתן בארגז דת מתן, מה כלשהו אנגלית תיקונים חפש.
+        </div>
+
+        <div class="col-7 ">
+            <img src="pic/רכיבה טיפולית.jpg" alt="רכיבה טיפולית" class="w-100 rounded-pill">
+        </div>
+    </section>
+
+
+
+    <!-- אילוף סוסים -->
+    <section class="row align-items-center" id="elof">
+        
+        <div class="col-7 ">
+            <img src="pic/אילוף.jpg" alt="אילוף סוסים" class="w-100 rounded-pill">
+        </div>
+
+        <div class="col-5 text-center ">
+                <h1 >אילוף סוסים</h1>
+    
+    
+                <p>יידיש הבאים ב מתן, אחר מה רוסית ופיתוחה, היא ב הבאים ביולוגיה. בה תיאטרון פילוסופיה אנא. רבה את ותשובות
+                    הגולשות, שמו על שדרות אספרנטו. זכר על ננקטת בארגז למאמרים, ארץ כלים מחליטה או. בה בדף המלצת
+                    העריכהגירסאות, עסקים צרפתית מדע ב, המזנון לאחרונה את ויש. שדרות סטטיסטיקה זאת גם, אינו ממונרכיה אם כדי,
+                    ב עמוד אקראי מיזמים סדר.
+                    ניווט משחקים אנא אם. דת זכר בארגז מוסיקה, היא בה קסאם ביולי. שפות ומהימנה מבוקשים על סדר. מלא ספרות
+                    נבחרים הנאמנים את, מדע מה העזרה ספרדית. צעד ציור רומנית אם, בקר קהילה פיסיקה והגולשים את, רבה את לחבר
+                    אחרים ותשובות. כדי מיזם לחיבור ב, כתב שאלות מיותר של.
+                    ביוני טבלאות אנתרופולוגיה צעד ב, ייִדיש קרימינולוגיה תנך דת. אם והוא פולנית האטמוספירה כדי. מיותר טכניים
+                    מדע דת. מפתח האטמוספירה ארץ או. או היא ביוני המלחמה, ובמתן בארגז דת מתן, מה כלשהו אנגלית תיקונים חפש.
+            </div>
+    </section>
+
+    <!-- קליניקה -->
+    <section class="row align-items-center" id="clini">
+        <div class="col-5 text-center ">
+            <h1>קליניקה</h1>
+
+
+            <p>יידיש הבאים ב מתן, אחר מה רוסית ופיתוחה, היא ב הבאים ביולוגיה. בה תיאטרון פילוסופיה אנא. רבה את ותשובות
+                הגולשות, שמו על שדרות אספרנטו. זכר על ננקטת בארגז למאמרים, ארץ כלים מחליטה או. בה בדף המלצת
+                העריכהגירסאות, עסקים צרפתית מדע ב, המזנון לאחרונה את ויש. שדרות סטטיסטיקה זאת גם, אינו ממונרכיה אם כדי,
+                ב עמוד אקראי מיזמים סדר.
+                ניווט משחקים אנא אם. דת זכר בארגז מוסיקה, היא בה קסאם ביולי. שפות ומהימנה מבוקשים על סדר. מלא ספרות
+                נבחרים הנאמנים את, מדע מה העזרה ספרדית. צעד ציור רומנית אם, בקר קהילה פיסיקה והגולשים את, רבה את לחבר
+                אחרים ותשובות. כדי מיזם לחיבור ב, כתב שאלות מיותר של.
+                ביוני טבלאות אנתרופולוגיה צעד ב, ייִדיש קרימינולוגיה תנך דת. אם והוא פולנית האטמוספירה כדי. מיותר טכניים
+                מדע דת. מפתח האטמוספירה ארץ או. או היא ביוני המלחמה, ובמתן בארגז דת מתן, מה כלשהו אנגלית תיקונים חפש.
+        </div>
+
+        <div class="col-7 ">
+            <img src="pic/קליניקה.jpg" alt="קליניקה" class="w-100 rounded-pill">
+        </div>
+    </section>
+<br>    
+    <!-- end  -->
+    <div class="row align-items-center" style="background-color: black;">
+        <h1 class="text-center col-12" >צור קשר</h1>
+        <form class="form-row col-12">
+                <div class="form-group col-md-6">
+            <!-- <label for="first-name">שם</label> -->
+            <input type="text" id="first-name" placeholder="שם פרטי" class="form-control">
+         </div>
+              </form>
+    </div>
+
+
+    <script>
+        var i = 0;
+        var txt = "תומר אהרוני - מדריך רכיבה טיפולית"; /* The text */
+        var speed = 150; /* The speed/duration of the effect in milliseconds */
+
+        function typeWriter() {
+            if (i < txt.length) {
+                document.getElementById("demo").innerHTML += txt.charAt(i);
+                i++;
+                setTimeout(typeWriter, speed);
+            }
+        }
+        window.onload = typeWriter;
+
+    </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
