@@ -1,0 +1,64 @@
+html {
+    scroll-behavior: smooth;
+}
+#myVideo {
+    padding-right: 0;
+    padding-left: 0;
+    position: inherit;
+    top: 0;
+}
+
+.bg-trans {
+    background-color: transparent;
+}
+
+.nav {
+    direction: rtl
+}
+
+.dropdown-item,
+.navlink,
+li a {
+    font-size: 1.5em;
+    color: #d9a6a1;
+}
+
+a.nav-link {
+    border-bottom: 2px solid #d9a6a1;
+}
+
+.video-text {
+    position: absolute;
+    z-index: 1;
+    top: 500px;
+    color: #d9a6a1;
+    font-size: 5em;
+    right: 175px;
+}
+
+.pic-category img {
+    width: 100%;
+    height: 300px;
+}
+
+.pic-category img:hover {
+    transform: scale(1.1);
+}
+
+.pic-category p {
+    text-align: center;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    font-size: 5em;
+    color: #d9a6a1;
+
+}
+.abut {
+    margin-left: 20%;
+     margin-right: 20%;
+}
+.profile-pic {
+    height: 350px;
+}
